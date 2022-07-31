@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/* カラー変数 */
+@media screen and (max-width: 1180px) {
+  header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  /* ファーストビュー */
+  .ly_fv {
+    height: 100vh;
+  }
+  .ly_fv_copy {
+    line-height: 1.15;
+    font-size: 7rem;
+  }
+  .ly_fv_copy_sub {
+    padding: 0 5%;
+  }
+  .ly_fv_copy_sub h2 {
+    font-size: 3rem;
+  }
+  .slick-box img {
+    height: calc(100vh - 80px);
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* ヘルパークラス */
+  .hp_pc-br {
+    display: none;
+  }
+  .bl_nav_list {
+    display: none;
+  }
+  .bl_drawerBtn {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .el_btn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .bl_news_box p {
+    padding: 0px 0px 0px 25px;
+  }
+  .bl_news_box p::before {
+    left: 10px;
+  }
+  .bl_news_box a {
+    padding: 10px 20px;
+  }
+  .bl_news_box button {
+    padding: 0;
+  }
+  /* サービスセクション */
+  .bl_services_img {
+    margin-right: -4vw;
+  }
+  .bl_services_img img {
+    width: 100vw;
+  }
+  .bl_services_container {
+    height: auto;
+  }
+  .bl_services_body {
+    width: 90%;
+  }
+  /* アバウトセクション */
+  .bl_about_box {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .bl_about_body {
+    width: 100%;
+  }
+  .bl_about_body img {
+    width: 100%;
+  }
+  /* ワークスセクション */
+  #works {
+    text-align: left;
+  }
+  /* リクルートセクション */
+  #recruit .ly_inner {
+    text-align: left;
+  }
+  .bl_cardUnit.bl_cardUnit__col3 {
+    margin-bottom: -20px;
+  }
+  .bl_cardUnit__col3 > .bl_card {
+    width: 100%;
+    margin-right: 0;
+  }
+  .bl_cardUnit__col3 > .bl_card:nth-child(1) {
+    margin-top: 0px;
+  }
+  .bl_cardUnit__col3 > .bl_card:nth-child(2) {
+    margin-top: 0px;
+  }
+  .bl_cardUnit__col3 .bl_card .el_btn {
+    bottom: -27px;
+    right: 0;
+    background-color: transparent;
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px 0px;
+            box-shadow: 0px 0px 0px;
+    text-shadow: 0px 0px 10px black;
+  }
+  .bl_cardUnit__col3 .bl_card .el_btn span:before {
+    right: -40px;
+  }
+  .bl_cardUnit__col3 .bl_card .el_btn span::after {
+    right: -42px;
+  }
+  /* コンタクトセクション */
+  #contact .ly_inner {
+    text-align: left;
+  }
+  #contact .ly_inner .el_btn {
+    text-align: left;
+    padding-left: 30px;
+  }
+  #contact .ly_inner .el_btn:first-of-type {
+    margin-right: auto;
+  }
+  /* フッター */
+  .bl_footer_wrapper {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .bl_footer_list {
+    -webkit-writing-mode: horizontal-tb;
+        -ms-writing-mode: lr-tb;
+            writing-mode: horizontal-tb;
+    margin-bottom: 50px;
+  }
+  .bl_footer_profile .el_logo {
+    width: 65%;
+  }
+  .bl_footer_under {
+    text-align: center;
+  }
+  /* ヘルパークラス */
+  .hp_tb-br {
+    display: block;
+  }
+  .hp_column {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .hp_column__r {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  /* フォントサイズ */
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+  body {
+    font-size: 1.3rem;
+  }
+  /* ドロワーメニュー */
+  .bl_drawer_item {
+    padding: 10px 0px;
+  }
+  /* ヘッダー */
+  .hambarg {
+    width: 30px;
+    height: 2px;
+  }
+  .bl_drawerBtn {
+    right: 20px;
+  }
+  /* ファーストビュー */
+  .ly_fv {
+    height: 100vh;
+  }
+  .ly_fv_copy {
+    font-size: 3rem;
+    line-height: 1.8;
+  }
+  .ly_fv_copy_sub {
+    padding: 0 5%;
+  }
+  .ly_fv_copy_sub h2 {
+    font-size: 1.8rem;
+  }
+  .slick-box img {
+    height: calc(100vh - 80px);
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* アバウトセクション */
+  .bl_about_box {
+    padding: 24px 30px;
+  }
+  /* ワークスセクション */
+  .bl_cardUnit.bl_cardUnit__col3 {
+    margin-bottom: -20px;
+  }
+  .bl_cardUnit__col2 > .bl_card {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  /* リクルートセクション */
+  .bl_card_imgWrapper + .el_btn {
+    width: 150px;
+  }
+  .bl_cardUnit__col3 {
+    margin-top: 20px;
+  }
+  /* ヘルパークラス */
+  .hp_sp-br {
+    display: block;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
